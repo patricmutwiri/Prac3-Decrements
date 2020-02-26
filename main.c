@@ -4,7 +4,7 @@
 main()                          //  Defines main function
 {
     int i, j, a=29;             //  Defines variables i,j and a as integers and also initiates a as 29.
-    for(i=5; i>=0;i--) {        //  Start a for loop using i as 5, decrementing by 1 step(value) down to 0.
+    for(i=5; i>=1;i--) {        //  Start a for loop using i as 5, decrementing by 1 step(value) down to 1.
         for(j=5; j>=i;j--) {    //  Start a for loop using j as 5, decrementing by 1 step(value) up to i's current value which is also looping from the outer for loop.
             printf("%d ",a);    //  Format integer a and print it out to the screen.
             a-=2;               //  Decrement/Sum the value of a with its previous value and 2. Substracts 2 from the previous value of a.
